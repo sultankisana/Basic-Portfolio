@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url('../assets/images/urussideview.jpg');
+  background: url('../images/background.jpe');
   font-size: 18px;
   line-height: 34px;
   font-family: 'Arial', 'Helvetica', sans-serif;
@@ -140,16 +140,18 @@ h3, .sidebar, h2 {
 
 /* Footer css start */
 
-footer{
-  background: 666;
-  color: #fff;
-  padding: 30px 0;
-  clear: both;
-  border=top 8px solid #4aaaa5;
-  color: #ccc;
-  font-size: 12px;
-  text-align: center;
-}
+  .footer {
+    background-color: #666666;
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: 4px;
+    padding: 10px 0px 50px 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
 
 /* Portfolio page css start */
 
